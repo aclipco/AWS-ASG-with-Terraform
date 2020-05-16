@@ -1,5 +1,5 @@
 region                  =  "us-east-1"
-s3_bucket                = "task3devenv"
+s3_bucket                = "dev-asg-us-east-1"
 lc_name                 =     "lc-dev"
 image_id                =     "ami-08069af5915f342b8"
 instance_type           =      "t2.micro"
