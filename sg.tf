@@ -16,6 +16,13 @@ resource "aws_security_group" "allow_80_443" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
+   ingress {
+    from_port   = 22
+    to_port     = 22
+    protocol    = "ssh"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
   egress {
     from_port       = 0
     to_port         = 0
